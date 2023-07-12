@@ -1,0 +1,198 @@
+body {
+  background-color: black;
+}
+
+H1 {
+  background-color: red;
+  font-size: xx-large;
+
+  color: rgb(250, 249, 252);
+}
+
+.imagen1 {
+  width: 100px;
+
+  height: 100px;
+}
+
+.imagen2 {
+  width: 100px;
+
+  height: 100px;
+}
+
+.imagen3 {
+  width: 100px;
+
+  height: 100px;
+}
+
+p {
+  font-size: xx-large;
+  color: aliceblue;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.productos {
+  border: 10cm;
+  border-color: white;
+  font-size: 25px;
+  color: aliceblue;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.contacto {
+  border: 10cm;
+  border-color: white;
+  font-size: 25px;
+  color: aliceblue;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.conocenos {
+  border: 10cm;
+  border-color: white;
+  font-size: 25px;
+  color: aliceblue;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  /* Espacio entre los elementos */
+}
+
+header {
+  background-color: gray;
+  background-size: contain;
+}
+
+.elemento-con-borde {
+  border: 10px solid black;
+  /* Establece un borde sólido de 1 píxel en color negro */
+  padding: 30px;
+  /* Opcional: Agrega un espacio de relleno alrededor del contenido del elemento */
+}
+
+.button {
+  border: 5px solid red;
+  border-radius: 8px;
+  padding: 8px 8px 24px 8px;
+  box-shadow: 10px 20px 20px 10px rgba(251, 91, 91, 0.2);
+}
+
+.mb-3 {
+  color: white;
+}
+
+.imges {
+  width: 25%;
+  height: 25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Crea 3 columnas de ancho flexible */
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  /* Espacio entre las celdas */
+  height: 100%;
+  width: 100%;
+
+}
+
+.grid-item {
+  border: 1px solid black;
+  /* Borde para las celdas */
+  padding: 10px;
+  /* Espacio interno de las celdas */
+  text-align: center;
+  /* Centra el contenido dentro de las celdas */
+}
+
+.grid-item img {
+  max-width: 100%;
+  /* Hace que las imágenes se ajusten al ancho máximo disponible en las celdas */
+  height: auto;
+  /* Mantiene la proporción de aspecto de las imágenes */
+  display: block;
+  /* Evita el espacio adicional debajo de las imágenes */
+}
+
+
+
+
+
+
+
+
+.productos {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Crea 3 columnas de ancho flexible */
+  grid-gap: 10px;
+  grid-template-rows: repeat(3,1fr);
+  /* Espacio entre las celdas */
+}
+
+.grid-item {
+  border: 1px solid black;
+  /* Borde para las celdas */
+  padding: 10px;
+  /* Espacio interno de las celdas */
+  text-align: center;
+  /* Centra el contenido dentro de las celdas */
+}
+
+.grid-item img {
+  max-width: 100%;
+  /* Hace que las imágenes se ajusten al ancho máximo disponible en las celdas */
+  height: auto;
+  /* Mantiene la proporción de aspecto de las imágenes */
+  display: block;
+  /* Evita el espacio adicional debajo de las imágenes */
+}
+
+
+
+
+
+@media only screen and ( min-width:321px) and  (max-width: 480px){
+  body{
+      
+  }
+
+
+@media only screen and  ( min-width:1024px) and ( max-width: 1200px){
+  body{
+      
+  }
+}

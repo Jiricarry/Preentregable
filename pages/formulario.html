@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <a href="../index.html">
+        <img src="../images/logonike.jpg" alt="" />
+    </a>
+
+    <nav class="elemento-con-borde">
+        <ul class="listahorizontal">
+            <li>
+                <div class="button">
+                    <a class="productos" href="./productos.html">productos</a>
+                </div>
+            </li>
+            <li>
+                <div class="button">
+                    <a class="contacto" href="./formulario.html">contacto</a>
+                </div>
+            </li>
+            <li>
+                <div class="button">
+                    <a class="conocenos" href="./pages/conocenos.html">conocenos</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <head>
+        <title>Formulario con estilo personalizado</title>
+        <style>
+            body {
+                color: white;
+                /* Establece el color de texto para todo el cuerpo del documento */
+            }
+
+            form {
+                /* Establece el color de texto para el formulario específicamente */
+                color: white;
+            }
+        </style>
+    </head>
+
+    <body>
+    
+           
+            <h2>Formulario de contacto</h2>
+
+            <form action="procesar_formulario.php" method="POST" enctype="multipart/form-data">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="archivo">Adjuntar CV:</label>
+                <input type="file" id="archivo" name="archivo" required><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+    </body>
+
+</html>
+
+
+
+
+
+</body>
+
+</html>
